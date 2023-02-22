@@ -1,0 +1,10 @@
+void exercicio1(int x, int y);
+void exercicio2(int x, int y);
+void exercicio3();
+void exercicio4(float salario);
+void exercicio5();
+void exercicio6();
+int exercicio7(int base, int expoente);
+void exercicio8();
+int exercicio9(int n);
+int exercicio10();
