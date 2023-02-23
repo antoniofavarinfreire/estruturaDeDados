@@ -9,6 +9,8 @@ int main() {
   int n;
   int fat = 1;
   int fibo;
+  char string1[10];
+  char string2[10];
   printf("Digite o numero do exercicio: ");
   scanf("%d", &option);
   while (option !=0) {
@@ -38,6 +40,10 @@ int main() {
         exercicio5();
       break;
 
+      case 6 :
+        exercicio6();
+      break;
+
       case 7 :
         printf("Digite uma base e um expoente:\n");
         scanf("%d", &base);
@@ -52,13 +58,21 @@ int main() {
 
       case 9 : 
         printf("Digite um numero inteiro:");
+
         scanf("%d", &n);
         fat = exercicio9(n);
         printf("\n\n O fatorial de %d eh: %d\n", n, fat);
       break;
       case 10 : 
-        fibo = exercicio9(n);
-        printf("Fibonaci: %d", fibo);
+        exercicio10();
+      break;
+
+      case 11 : 
+        exercicio11();
+      break;
+
+      case 12 : 
+        exercicio12();
       break;
     }
     printf("Qual novo exercicio? \nDigite 0 caso deseje encerrar o programa\n");
